@@ -11,5 +11,7 @@ Each group will develop an Android app for student use for the College of Busine
 Purpose: 
 Allows you to find main faculty in the College of Business. 
 
-Group Project Member: 
+Project Swift Version: 3.2 
+
+Group Project Members: 
 Vinh, David, Reanard, and Michael-John. 
