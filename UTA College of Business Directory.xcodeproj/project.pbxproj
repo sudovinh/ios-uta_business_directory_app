@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220844081DF148D1007B2E07 /* UTA_Mascot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 220844071DF148D1007B2E07 /* UTA_Mascot.gif */; };
+		2208440A1DF14CBC007B2E07 /* back_button-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 220844091DF14CBC007B2E07 /* back_button-512.png */; };
+		2209F3A01DF15A9D000AE4E4 /* menu-alt-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 2209F39F1DF15A9D000AE4E4 /* menu-alt-512.png */; };
+		22830BBA1DEE0D8B005BE398 /* uta-college-of-business.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22830BB91DEE0D8B005BE398 /* uta-college-of-business.gif */; };
+		22830BBC1DEE0DD0005BE398 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22830BBB1DEE0DD0005BE398 /* maxresdefault.jpg */; };
+		22AD164E1DEE091A005BB24C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD164D1DEE091A005BB24C /* AppDelegate.swift */; };
+		22AD16501DEE091A005BB24C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD164F1DEE091A005BB24C /* ViewController.swift */; };
+		22AD16531DEE091A005BB24C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD16511DEE091A005BB24C /* Main.storyboard */; };
+		22AD16551DEE091A005BB24C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AD16541DEE091A005BB24C /* Assets.xcassets */; };
+		22AD16581DEE091A005BB24C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD16561DEE091A005BB24C /* LaunchScreen.storyboard */; };
+		F465D4D11DF67AF500E8BCEF /* AccountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465D4D01DF67AF500E8BCEF /* AccountingViewController.swift */; };
+		F465D4D31DF67E0900E8BCEF /* EconomicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465D4D21DF67E0900E8BCEF /* EconomicsViewController.swift */; };
+		F465D4D51DF6803600E8BCEF /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465D4D41DF6803600E8BCEF /* FinanceViewController.swift */; };
+		F465D4D71DF680E100E8BCEF /* InfoSystemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465D4D61DF680E100E8BCEF /* InfoSystemsViewController.swift */; };
+		F465D4D91DF6817400E8BCEF /* ManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465D4D81DF6817400E8BCEF /* ManagementViewController.swift */; };
+		F465D4DB1DF681EF00E8BCEF /* MarketingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465D4DA1DF681EF00E8BCEF /* MarketingViewController.swift */; };
+		F465D4DD1DF6827600E8BCEF /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465D4DC1DF6827600E8BCEF /* AboutUsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220844071DF148D1007B2E07 /* UTA_Mascot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UTA_Mascot.gif; sourceTree = SOURCE_ROOT; };
+		220844091DF14CBC007B2E07 /* back_button-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_button-512.png"; sourceTree = SOURCE_ROOT; };
+		2209F39F1DF15A9D000AE4E4 /* menu-alt-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-alt-512.png"; sourceTree = SOURCE_ROOT; };
+		22830BB91DEE0D8B005BE398 /* uta-college-of-business.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "uta-college-of-business.gif"; sourceTree = SOURCE_ROOT; };
+		22830BBB1DEE0DD0005BE398 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = SOURCE_ROOT; };
+		22AD164A1DEE091A005BB24C /* UTA College of Business Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UTA College of Business Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AD164D1DEE091A005BB24C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22AD164F1DEE091A005BB24C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22AD16521DEE091A005BB24C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22AD16541DEE091A005BB24C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22AD16571DEE091A005BB24C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22AD16591DEE091A005BB24C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AD165E1DEE091A005BB24C /* UTA College of Business DirectoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UTA College of Business DirectoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F465D4D01DF67AF500E8BCEF /* AccountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingViewController.swift; sourceTree = "<group>"; };
+		F465D4D21DF67E0900E8BCEF /* EconomicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EconomicsViewController.swift; sourceTree = "<group>"; };
+		F465D4D41DF6803600E8BCEF /* FinanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		F465D4D61DF680E100E8BCEF /* InfoSystemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoSystemsViewController.swift; sourceTree = "<group>"; };
+		F465D4D81DF6817400E8BCEF /* ManagementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementViewController.swift; sourceTree = "<group>"; };
+		F465D4DA1DF681EF00E8BCEF /* MarketingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketingViewController.swift; sourceTree = "<group>"; };
+		F465D4DC1DF6827600E8BCEF /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22AD16471DEE091A005BB24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD165B1DEE091A005BB24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22830BBD1DEE0DD8005BE398 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				2209F39F1DF15A9D000AE4E4 /* menu-alt-512.png */,
+				220844071DF148D1007B2E07 /* UTA_Mascot.gif */,
+				220844091DF14CBC007B2E07 /* back_button-512.png */,
+				22830BBB1DEE0DD0005BE398 /* maxresdefault.jpg */,
+				22830BB91DEE0D8B005BE398 /* uta-college-of-business.gif */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		22AD16411DEE0919005BB24C = {
+			isa = PBXGroup;
+			children = (
+				22AD164C1DEE091A005BB24C /* UTA College of Business Directory */,
+				22AD164B1DEE091A005BB24C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22AD164B1DEE091A005BB24C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22AD164A1DEE091A005BB24C /* UTA College of Business Directory.app */,
+				22AD165E1DEE091A005BB24C /* UTA College of Business DirectoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AD164C1DEE091A005BB24C /* UTA College of Business Directory */ = {
+			isa = PBXGroup;
+			children = (
+				22830BBD1DEE0DD8005BE398 /* Pictures */,
+				22AD164D1DEE091A005BB24C /* AppDelegate.swift */,
+				22AD164F1DEE091A005BB24C /* ViewController.swift */,
+				22AD16511DEE091A005BB24C /* Main.storyboard */,
+				F465D4D01DF67AF500E8BCEF /* AccountingViewController.swift */,
+				F465D4D21DF67E0900E8BCEF /* EconomicsViewController.swift */,
+				F465D4D41DF6803600E8BCEF /* FinanceViewController.swift */,
+				F465D4D61DF680E100E8BCEF /* InfoSystemsViewController.swift */,
+				F465D4D81DF6817400E8BCEF /* ManagementViewController.swift */,
+				F465D4DA1DF681EF00E8BCEF /* MarketingViewController.swift */,
+				F465D4DC1DF6827600E8BCEF /* AboutUsViewController.swift */,
+				22AD16541DEE091A005BB24C /* Assets.xcassets */,
+				22AD16561DEE091A005BB24C /* LaunchScreen.storyboard */,
+				22AD16591DEE091A005BB24C /* Info.plist */,
+			);
+			path = "UTA College of Business Directory";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22AD16491DEE091A005BB24C /* UTA College of Business Directory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AD16671DEE091A005BB24C /* Build configuration list for PBXNativeTarget "UTA College of Business Directory" */;
+			buildPhases = (
+				22AD16461DEE091A005BB24C /* Sources */,
+				22AD16471DEE091A005BB24C /* Frameworks */,
+				22AD16481DEE091A005BB24C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UTA College of Business Directory";
+			productName = "UTA College of Business Directory";
+			productReference = 22AD164A1DEE091A005BB24C /* UTA College of Business Directory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22AD165D1DEE091A005BB24C /* UTA College of Business DirectoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AD166A1DEE091A005BB24C /* Build configuration list for PBXNativeTarget "UTA College of Business DirectoryTests" */;
+			buildPhases = (
+				22AD165A1DEE091A005BB24C /* Sources */,
+				22AD165B1DEE091A005BB24C /* Frameworks */,
+				22AD165C1DEE091A005BB24C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UTA College of Business DirectoryTests";
+			productName = "UTA College of Business DirectoryTests";
+			productReference = 22AD165E1DEE091A005BB24C /* UTA College of Business DirectoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22AD16421DEE091A005BB24C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = chickenFeet;
+				TargetAttributes = {
+					22AD16491DEE091A005BB24C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3EG86HNY22;
+						ProvisioningStyle = Automatic;
+					};
+					22AD165D1DEE091A005BB24C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3EG86HNY22;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22AD16491DEE091A005BB24C;
+					};
+				};
+			};
+			buildConfigurationList = 22AD16451DEE091A005BB24C /* Build configuration list for PBXProject "UTA College of Business Directory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22AD16411DEE0919005BB24C;
+			productRefGroup = 22AD164B1DEE091A005BB24C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22AD16491DEE091A005BB24C /* UTA College of Business Directory */,
+				22AD165D1DEE091A005BB24C /* UTA College of Business DirectoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22AD16481DEE091A005BB24C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220844081DF148D1007B2E07 /* UTA_Mascot.gif in Resources */,
+				22830BBA1DEE0D8B005BE398 /* uta-college-of-business.gif in Resources */,
+				22AD16581DEE091A005BB24C /* LaunchScreen.storyboard in Resources */,
+				2209F3A01DF15A9D000AE4E4 /* menu-alt-512.png in Resources */,
+				22830BBC1DEE0DD0005BE398 /* maxresdefault.jpg in Resources */,
+				22AD16551DEE091A005BB24C /* Assets.xcassets in Resources */,
+				22AD16531DEE091A005BB24C /* Main.storyboard in Resources */,
+				2208440A1DF14CBC007B2E07 /* back_button-512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD165C1DEE091A005BB24C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22AD16461DEE091A005BB24C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F465D4D91DF6817400E8BCEF /* ManagementViewController.swift in Sources */,
+				F465D4DD1DF6827600E8BCEF /* AboutUsViewController.swift in Sources */,
+				F465D4DB1DF681EF00E8BCEF /* MarketingViewController.swift in Sources */,
+				22AD16501DEE091A005BB24C /* ViewController.swift in Sources */,
+				F465D4D11DF67AF500E8BCEF /* AccountingViewController.swift in Sources */,
+				22AD164E1DEE091A005BB24C /* AppDelegate.swift in Sources */,
+				F465D4D31DF67E0900E8BCEF /* EconomicsViewController.swift in Sources */,
+				F465D4D51DF6803600E8BCEF /* FinanceViewController.swift in Sources */,
+				F465D4D71DF680E100E8BCEF /* InfoSystemsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD165A1DEE091A005BB24C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22AD16511DEE091A005BB24C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AD16521DEE091A005BB24C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22AD16561DEE091A005BB24C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AD16571DEE091A005BB24C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22AD16651DEE091A005BB24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22AD16661DEE091A005BB24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22AD16681DEE091A005BB24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EG86HNY22;
+				INFOPLIST_FILE = "UTA College of Business Directory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickenFeet.UTA-College-of-Business-Directory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22AD16691DEE091A005BB24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EG86HNY22;
+				INFOPLIST_FILE = "UTA College of Business Directory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickenFeet.UTA-College-of-Business-Directory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		22AD166B1DEE091A005BB24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3EG86HNY22;
+				INFOPLIST_FILE = "UTA College of Business DirectoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickenFeet.UTA-College-of-Business-DirectoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTA College of Business Directory.app/UTA College of Business Directory";
+			};
+			name = Debug;
+		};
+		22AD166C1DEE091A005BB24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3EG86HNY22;
+				INFOPLIST_FILE = "UTA College of Business DirectoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickenFeet.UTA-College-of-Business-DirectoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTA College of Business Directory.app/UTA College of Business Directory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22AD16451DEE091A005BB24C /* Build configuration list for PBXProject "UTA College of Business Directory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AD16651DEE091A005BB24C /* Debug */,
+				22AD16661DEE091A005BB24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AD16671DEE091A005BB24C /* Build configuration list for PBXNativeTarget "UTA College of Business Directory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AD16681DEE091A005BB24C /* Debug */,
+				22AD16691DEE091A005BB24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AD166A1DEE091A005BB24C /* Build configuration list for PBXNativeTarget "UTA College of Business DirectoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AD166B1DEE091A005BB24C /* Debug */,
+				22AD166C1DEE091A005BB24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22AD16421DEE091A005BB24C /* Project object */;
+}

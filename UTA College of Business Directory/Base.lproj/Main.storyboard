@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ykW-vH-LgQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profiles-->
+        <scene sceneID="hzr-DQ-eZD">
+            <objects>
+                <viewController id="SsW-KE-6Jk" customClass="ViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M3a-P7-rWy"/>
+                        <viewControllerLayoutGuide type="bottom" id="D8z-Ig-z7o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UC7-pA-HTs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="hrO-4w-Xib">
+                                <rect key="frame" x="77" y="72" width="220" height="43"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kGj-DE-f2r">
+                                <rect key="frame" x="16" y="174" width="343" height="473"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="524" id="8S4-No-BOU"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="SsW-KE-6Jk" id="Ofw-WU-hlQ"/>
+                                </connections>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3b-BO-eJb">
+                                <rect key="frame" x="-160" y="64" width="140" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Dd7-fA-H9d">
+                                        <rect key="frame" x="5" y="8" width="140" height="262"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzb-Ts-aVM">
+                                                <rect key="frame" x="0.0" y="0.0" width="140" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <state key="normal" title="Accounting"/>
+                                                <connections>
+                                                    <segue destination="0Yw-Jb-5su" kind="show" id="dyJ-N9-ENP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYx-Me-Fm0">
+                                                <rect key="frame" x="0.0" y="47" width="140" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <state key="normal" title="Economics"/>
+                                                <connections>
+                                                    <segue destination="zhA-sL-Ghk" kind="show" id="WcL-Og-g1d"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvE-Vg-opZ">
+                                                <rect key="frame" x="0.0" y="94" width="140" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <state key="normal" title="Finance &amp; Real Estate"/>
+                                                <connections>
+                                                    <segue destination="dEf-zU-4wE" kind="show" id="kjI-Nl-a97"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIZ-eV-cNP">
+                                                <rect key="frame" x="0.0" y="141" width="140" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <state key="normal" title="Information Systems"/>
+                                                <connections>
+                                                    <segue destination="cMZ-D8-07h" kind="show" id="QQ4-4A-esz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESq-Mm-Mt2">
+                                                <rect key="frame" x="0.0" y="188" width="140" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <state key="normal" title="Management"/>
+                                                <connections>
+                                                    <segue destination="DiG-hY-ep1" kind="show" id="i8m-sZ-KyT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmw-7X-2Vb">
+                                                <rect key="frame" x="0.0" y="235" width="140" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <state key="normal" title="Marketing"/>
+                                                <connections>
+                                                    <segue destination="yf7-KQ-Ejv" kind="show" id="M1B-s1-mFr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="262" id="mRE-nc-kPZ"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dk-Qq-6Ib">
+                                        <rect key="frame" x="0.0" y="568" width="130" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="CGA-LA-kVK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <state key="normal" title="About Us"/>
+                                        <connections>
+                                            <segue destination="2Ak-dq-kuf" kind="show" id="jnL-bc-idQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="0.87801489093959728" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Dd7-fA-H9d" firstAttribute="leading" secondItem="g3b-BO-eJb" secondAttribute="leading" id="3JR-qY-zaS"/>
+                                    <constraint firstAttribute="bottom" secondItem="4dk-Qq-6Ib" secondAttribute="bottom" constant="8" id="4mw-tk-clx"/>
+                                    <constraint firstItem="4dk-Qq-6Ib" firstAttribute="leading" secondItem="g3b-BO-eJb" secondAttribute="leading" id="Gye-ll-cRA"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dd7-fA-H9d" secondAttribute="trailing" id="Mv3-ho-SDK"/>
+                                    <constraint firstAttribute="trailing" secondItem="4dk-Qq-6Ib" secondAttribute="trailing" id="jac-yC-1t7"/>
+                                    <constraint firstAttribute="width" constant="140" id="ktb-fk-4oe"/>
+                                    <constraint firstItem="Dd7-fA-H9d" firstAttribute="top" secondItem="g3b-BO-eJb" secondAttribute="top" constant="8" id="lDc-gc-MEI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g3b-BO-eJb" firstAttribute="leading" secondItem="UC7-pA-HTs" secondAttribute="leading" constant="-160" id="60h-PO-VJT"/>
+                            <constraint firstAttribute="bottom" secondItem="kGj-DE-f2r" secondAttribute="bottom" constant="20" symbolic="YES" id="ERP-DR-NP8"/>
+                            <constraint firstItem="kGj-DE-f2r" firstAttribute="centerX" secondItem="hrO-4w-Xib" secondAttribute="centerX" id="JCf-O1-KBx"/>
+                            <constraint firstItem="kGj-DE-f2r" firstAttribute="leading" secondItem="UC7-pA-HTs" secondAttribute="leadingMargin" id="TLu-fQ-6AW"/>
+                            <constraint firstItem="D8z-Ig-z7o" firstAttribute="top" secondItem="g3b-BO-eJb" secondAttribute="bottom" id="WVN-u7-JBq"/>
+                            <constraint firstItem="kGj-DE-f2r" firstAttribute="top" secondItem="hrO-4w-Xib" secondAttribute="bottom" constant="8" symbolic="YES" id="rsc-Cc-oHz"/>
+                            <constraint firstItem="g3b-BO-eJb" firstAttribute="top" secondItem="M3a-P7-rWy" secondAttribute="bottom" id="rwM-GL-bSz"/>
+                            <constraint firstItem="kGj-DE-f2r" firstAttribute="trailing" secondItem="UC7-pA-HTs" secondAttribute="trailingMargin" id="zml-yb-Xe9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profiles" id="9RH-Ay-J9v">
+                        <barButtonItem key="leftBarButtonItem" image="menu-alt-512.png" id="6mS-8w-tHd">
+                            <color key="tintColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="0.87801489089999996" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="openMenu:" destination="SsW-KE-6Jk" id="F21-Zj-I7E"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="pxF-fS-ga4"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leadingConstraint" destination="60h-PO-VJT" id="wWo-5T-ySO"/>
+                        <outlet property="menuView" destination="g3b-BO-eJb" id="xjH-CP-svT"/>
+                        <outlet property="webView" destination="kGj-DE-f2r" id="8ZU-Ae-t3a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXt-dG-e2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600.79999999999995" y="-16.641679160419791"/>
+        </scene>
+        <!--ACCOUNTING-->
+        <scene sceneID="U5W-9G-n77">
+            <objects>
+                <viewController title="ACCOUNTING" id="0Yw-Jb-5su" customClass="AccountingViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XgL-zG-7Yq"/>
+                        <viewControllerLayoutGuide type="bottom" id="X2U-qX-Acq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gfD-BE-eXl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9v-uC-FeW">
+                                <rect key="frame" x="0.0" y="123" width="375" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="0Yw-Jb-5su" id="lcF-2w-uOA"/>
+                                    <outlet property="delegate" destination="0Yw-Jb-5su" id="aIT-Zn-4bA"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="No3-j6-qA0">
+                                <rect key="frame" x="77" y="72" width="220" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcE-0B-ikD">
+                                <rect key="frame" x="0.0" y="386" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Go to Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="accountingButton:" destination="0Yw-Jb-5su" eventType="touchUpInside" id="kpk-ZA-8Zo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="accountingPicker" destination="P9v-uC-FeW" id="LXr-j3-Tqr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="itp-jS-qqW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528.8" y="-1102.3988005997003"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ei0-4K-ifh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ykW-vH-LgQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HBd-cp-GG8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SsW-KE-6Jk" kind="relationship" relationship="rootViewController" id="3Q2-4V-eWE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rq1-Xx-Ecp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="-1127"/>
+        </scene>
+        <!--ECONOMICS-->
+        <scene sceneID="lZM-B9-5cz">
+            <objects>
+                <viewController title="ECONOMICS" id="zhA-sL-Ghk" customClass="EconomicsViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kXz-jC-qQW"/>
+                        <viewControllerLayoutGuide type="bottom" id="VQA-WO-8Re"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TyS-Ga-gEU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="873-fZ-d4b">
+                                <rect key="frame" x="0.0" y="123" width="375" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="zhA-sL-Ghk" id="1aa-o0-H4m"/>
+                                    <outlet property="delegate" destination="zhA-sL-Ghk" id="mXN-9D-UGf"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2be-uc-W1g">
+                                <rect key="frame" x="0.0" y="386" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Go to Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="economicsButton:" destination="zhA-sL-Ghk" eventType="touchUpInside" id="0jK-z4-KiG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="ake-iZ-BJO">
+                                <rect key="frame" x="77" y="72" width="220" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="economicsPicker" destination="873-fZ-d4b" id="bf0-zQ-HCe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pqa-vx-LHU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528.8" y="-16.641679160419791"/>
+        </scene>
+        <!--FINANCE AND REAL ESTATE-->
+        <scene sceneID="LUM-of-X6m">
+            <objects>
+                <viewController title="FINANCE AND REAL ESTATE" id="dEf-zU-4wE" customClass="FinanceViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eTN-1I-ulh"/>
+                        <viewControllerLayoutGuide type="bottom" id="gJM-3O-Wv8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FdH-m1-J7q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="49I-OB-01u">
+                                <rect key="frame" x="0.0" y="115" width="375" height="263"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="dEf-zU-4wE" id="RZk-3p-QjH"/>
+                                    <outlet property="delegate" destination="dEf-zU-4wE" id="NBx-Sa-Z9f"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hea-Hx-NxS">
+                                <rect key="frame" x="0.0" y="386" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Go to Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="financeButton:" destination="dEf-zU-4wE" eventType="touchUpInside" id="yxe-QI-BKf"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="OWG-gB-Bey">
+                                <rect key="frame" x="77" y="64" width="220" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBM-jv-SmI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528.8" y="895.50224887556226"/>
+        </scene>
+        <!--INFORMATION SYSTEMS-->
+        <scene sceneID="pfE-vj-H45">
+            <objects>
+                <viewController title="INFORMATION SYSTEMS" id="cMZ-D8-07h" customClass="InfoSystemsViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A1D-bN-UcS"/>
+                        <viewControllerLayoutGuide type="bottom" id="jMe-83-09H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wxg-u7-YIT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kzc-Eo-YSg">
+                                <rect key="frame" x="0.0" y="123" width="375" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cMZ-D8-07h" id="bgt-gF-gCU"/>
+                                    <outlet property="delegate" destination="cMZ-D8-07h" id="15B-ro-gpX"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vU-UI-Wuw">
+                                <rect key="frame" x="0.0" y="386" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Go to Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="insyButton:" destination="cMZ-D8-07h" eventType="touchUpInside" id="SvM-ri-dO0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="uZo-xl-zuk">
+                                <rect key="frame" x="77" y="72" width="220" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="infoSystemsPicker" destination="kzc-Eo-YSg" id="4Uk-us-ci7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kGQ-zw-dzA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528.8" y="1692.5037481259371"/>
+        </scene>
+        <!--MANAGEMENT-->
+        <scene sceneID="3Pw-wg-gSI">
+            <objects>
+                <viewController title="MANAGEMENT" id="DiG-hY-ep1" customClass="ManagementViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3w9-qC-bXZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="rHE-ZZ-Znb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KBE-Qg-zrg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNH-S5-kvy">
+                                <rect key="frame" x="0.0" y="123" width="375" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="DiG-hY-ep1" id="zbt-CX-oYq"/>
+                                    <outlet property="delegate" destination="DiG-hY-ep1" id="65z-qq-Jf7"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maW-fD-LWV">
+                                <rect key="frame" x="0.0" y="386" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Go to Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="manaButton:" destination="DiG-hY-ep1" eventType="touchUpInside" id="bbV-bP-3uD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="bNd-Ck-jRP">
+                                <rect key="frame" x="77" y="72" width="220" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="managementPicker" destination="QNH-S5-kvy" id="aOm-XB-yF5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u1D-Ye-yMC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528.8" y="2489.5052473763121"/>
+        </scene>
+        <!--MARKETING-->
+        <scene sceneID="VCC-UQ-A8l">
+            <objects>
+                <viewController title="MARKETING" id="yf7-KQ-Ejv" customClass="MarketingViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bjE-tF-f62"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fv0-Tw-YnJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tWV-fS-Xdx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tq7-dS-XPX">
+                                <rect key="frame" x="0.0" y="115" width="375" height="263"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="yf7-KQ-Ejv" id="nfB-k5-eli"/>
+                                    <outlet property="delegate" destination="yf7-KQ-Ejv" id="Qyc-nA-1yI"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQF-zN-aGq">
+                                <rect key="frame" x="0.0" y="386" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93512934449999996" green="0.56283289189999997" blue="0.29557147620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Go to Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="marketingButton:" destination="yf7-KQ-Ejv" eventType="touchUpInside" id="NMY-6p-jUX"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="DSY-OV-8MU">
+                                <rect key="frame" x="77" y="64" width="220" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="marketingPicker" destination="tq7-dS-XPX" id="slO-Yo-Cx2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NpW-c3-Wjl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528.8" y="3310.794602698651"/>
+        </scene>
+        <!--ABOUT US-->
+        <scene sceneID="qmN-4u-Ba6">
+            <objects>
+                <viewController title="ABOUT US" id="2Ak-dq-kuf" customClass="AboutUsViewController" customModule="UTA_College_of_Business_Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xi3-4g-MCR"/>
+                        <viewControllerLayoutGuide type="bottom" id="cb7-pb-Hdn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JRm-Q9-T3e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uta-college-of-business.gif" translatesAutoresizingMaskIntoConstraints="NO" id="ZKq-ip-sLn">
+                                <rect key="frame" x="74" y="72" width="220" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQb-oF-Sbf">
+                                <rect key="frame" x="16" y="123" width="343" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Directory is a public information resource that contains information about UT Arlington College of Business faculty and staff. Use this system to learn more about an individual at UT Arlington or to locate potential collaborators with specific research interests or creative expertise.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Created by UT Arlington Information System students" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be9-Cn-8g8">
+                                <rect key="frame" x="16" y="300" width="343" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vinh Nguyen " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEq-K4-59l">
+                                <rect key="frame" x="136" y="442" width="102" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="David Nguyen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq1-NW-kYc">
+                                <rect key="frame" x="131" y="485" width="107" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reanard Pangestu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbl-S5-hUU">
+                                <rect key="frame" x="114" y="529" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Michael-John Onwuamaegbu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dol-A7-R09">
+                                <rect key="frame" x="75" y="575" width="225" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fOC-uI-k16" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-356" y="896"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu-alt-512.png" width="50" height="50"/>
+        <image name="uta-college-of-business.gif" width="291" height="36"/>
+    </resources>
+</document>
